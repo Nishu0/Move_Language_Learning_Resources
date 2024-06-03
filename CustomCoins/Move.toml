@@ -1,0 +1,16 @@
+[package]
+name = "custom_coins"
+version = "1.0.0"
+authors = []
+
+[addresses]
+nisarg = '61aacd5442b12f53230ae83750f42b6220ac98b52ff8983b120a7b8bae4ed38a'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
